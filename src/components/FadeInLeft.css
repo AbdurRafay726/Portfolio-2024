@@ -1,0 +1,9 @@
+.fadeinleft {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fadeinleft.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
