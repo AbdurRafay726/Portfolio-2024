@@ -54,14 +54,14 @@ body::-webkit-scrollbar-thumb {
   @apply transform translate-x-0 duration-1000;
 }
 .moveTextRight {
-  @apply transform translate-x-[138%] sm:translate-x-[143%] translate-y-[-18%] sm:translate-y-[-10%] duration-500;
+  @apply transform translate-x-[138%] sm:translate-x-[143%] translate-y-[-18%] xsm:translate-y-[-13%] sm:translate-y-[-10%] md:translate-y-[-3%] duration-500;
 }
 .moveTextLeft {
   @apply transform translate-x-0 opacity-0 duration-500;
 }
 
 .marginbottom {
-  @apply mb-[0.5rem] leading-3 sm:leading-4 md:leading-5;
+  @apply mb-[1rem] leading-[2vw];
 }
 
 .slidein {

@@ -13,7 +13,7 @@ const contact = [
   {
     name: "Instagram",
     icon: <AiFillInstagram color="white" />,
-    href: "/#",
+    href: "https://www.instagram.com/rao_abdur_rafay/",
   },
   {
     name: "Facebook",
@@ -57,6 +57,8 @@ export default function Footer() {
         {contact.map((item) => (
           <a
             href={item.href}
+            target="_blank"
+            rel="noreferrer"
             className="border-b p-4 hover:text-white hover:cursor-pointer hover:scale-95 duration-300  relative group overflow-y-hidden"
           >
             <div className=" absolute slidein group-hover:translate-y-0 z-0 duration-300 "></div>
