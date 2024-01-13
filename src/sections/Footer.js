@@ -1,6 +1,6 @@
 import { IoLogoFacebook, IoLogoLinkedin } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
-import { AiFillInstagram } from "react-icons/ai";
+import { TbBrandFiverr } from "react-icons/tb";
 import { useEffect, useState } from "react";
 import moment from "moment-timezone";
 
@@ -11,9 +11,9 @@ const contact = [
     href: "https://www.linkedin.com/in/rao-abdur-rafay-97a252186/",
   },
   {
-    name: "Instagram",
-    icon: <AiFillInstagram color="white" />,
-    href: "https://www.instagram.com/rao_abdur_rafay/",
+    name: "Fiverr",
+    icon: <TbBrandFiverr color="white" />,
+    href: "https://www.fiverr.com/s/y5A4Vz",
   },
   {
     name: "Facebook",
