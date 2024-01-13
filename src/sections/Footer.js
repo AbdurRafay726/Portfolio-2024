@@ -23,7 +23,7 @@ const contact = [
   {
     name: "Email",
     icon: <SiGmail color="white" />,
-    href: "abdurrafay726@gmail.com",
+    href: 'mailto:"abdurrafay726@gmail.com"',
   },
 ];
 
