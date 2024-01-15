@@ -32,12 +32,12 @@ export default function NavBar() {
         <div>
           <a
             href="/#"
-            className={`flex items-center ${
+            className={`flex items-center font-bold ${
               !open ? "text-black" : "text-white"
             }`}
           >
             <div
-              className={`w-8 h-8 md:w-12 md:h-12 flex items-center justify-center font-bold border-4   rounded-full p-4 mr-4 ${
+              className={`w-8 h-8 md:w-12 md:h-12 flex items-center justify-center font-bold border-4  rounded-full p-4 mr-4 ${
                 !open ? "border-black" : "border-white"
               }`}
             >

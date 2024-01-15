@@ -30,6 +30,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100px;
 }
 
+.hero {
+  background-image: url("../public/images/Web Development.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
 .qouteClrChange {
   filter: invert(9%) sepia(21%) saturate(718%) hue-rotate(88deg)
     brightness(122%) contrast(89%);
@@ -54,7 +63,7 @@ body::-webkit-scrollbar-thumb {
   @apply transform translate-x-0 duration-1000;
 }
 .moveTextRight {
-  @apply transform translate-x-[138%] sm:translate-x-[143%] translate-y-[-18%] xsm:translate-y-[-13%] sm:translate-y-[-10%] md:translate-y-[-3%] duration-500;
+  @apply transform translate-x-[138%] sm:translate-x-[140%] translate-y-[-18%] xsm:translate-y-[-13%] sm:translate-y-[-10%] md:translate-y-[-3%] duration-500;
 }
 .moveTextLeft {
   @apply transform translate-x-0 opacity-0 duration-500;
