@@ -63,7 +63,7 @@ body::-webkit-scrollbar-thumb {
   @apply transform translate-x-0 duration-1000;
 }
 .moveTextRight {
-  @apply transform translate-x-[138%] sm:translate-x-[140%] translate-y-[-18%] xsm:translate-y-[-13%] sm:translate-y-[-10%] md:translate-y-[-3%] duration-500;
+  @apply transform translate-x-[95vw] sm:translate-x-[97vw] md:translate-x-[99vw] translate-y-[-18%] xsm:translate-y-[-13%] sm:translate-y-[-10%] md:translate-y-[-3%] duration-500;
 }
 .moveTextLeft {
   @apply transform translate-x-0 opacity-0 duration-500;
